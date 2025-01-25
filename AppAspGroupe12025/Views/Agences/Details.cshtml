@@ -1,0 +1,66 @@
+﻿@model AppAspGroupe12025.Models.Agence
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Agence</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Gestionnaire.CNIGestionnaire)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gestionnaire.CNIGestionnaire)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NineaAgence)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NineaAgence)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdresseAgence)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdresseAgence)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Longitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Longitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Latitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Latitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RccmAgence)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RccmAgence)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdAgence }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
