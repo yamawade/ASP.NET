@@ -205,6 +205,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AgencesController.cs" />
+    <Compile Include="Controllers\GestionnairesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -713,6 +714,11 @@
     <Content Include="Views\Agences\Details.cshtml" />
     <Content Include="Views\Agences\Edit.cshtml" />
     <Content Include="Views\Agences\Index.cshtml" />
+    <Content Include="Views\Gestionnaires\Create.cshtml" />
+    <Content Include="Views\Gestionnaires\Delete.cshtml" />
+    <Content Include="Views\Gestionnaires\Details.cshtml" />
+    <Content Include="Views\Gestionnaires\Edit.cshtml" />
+    <Content Include="Views\Gestionnaires\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

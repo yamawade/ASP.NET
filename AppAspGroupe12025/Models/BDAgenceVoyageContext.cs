@@ -20,5 +20,7 @@ namespace AppAspGroupe12025.Models
         public DbSet<Client> clients { get; set; }
 
         public System.Data.Entity.DbSet<AppAspGroupe12025.Models.Agence> Agences { get; set; }
+
+        public System.Data.Entity.DbSet<AppAspGroupe12025.Models.Annonce> Annonces { get; set; }
     }
 }

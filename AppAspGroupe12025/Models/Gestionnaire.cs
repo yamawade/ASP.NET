@@ -18,10 +18,10 @@ namespace AppAspGroupe12025.Models
 
         public virtual Agence Agence { get; set; }
 
-        public int IdAnnonce { get; set; }
-        [ForeignKey("IdAnnonce")]
+        //public int IdAnnonce { get; set; }
+        //[ForeignKey("IdAnnonce")]
 
-        public virtual Annonce Annonce { get; set; }
+        //public virtual Annonce Annonce { get; set; }
 
         public virtual ICollection<Agence> Agences { get; set; }
     }
