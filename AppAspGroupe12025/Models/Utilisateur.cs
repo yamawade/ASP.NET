@@ -22,7 +22,7 @@ namespace AppAspGroupe12025.Models
         public string EmailUtilisateur { get; set; }
 
 
-        [Display(Name = "Téléphone"), Required(ErrorMessage = "*"), MaxLength(20),RegularExpression("/ ^(77 | 76 | 75 | 78 | 70 | 33)[0 - 9]{7}$/)")]
+        [Display(Name = "Téléphone"), Required(ErrorMessage = "*"), MaxLength(20),RegularExpression(@"^(77|76|75|78|70|33)[0-9]{7}$")]
         public string TelUtilisateur { get; set; }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -25,5 +26,11 @@ namespace AppAspGroupe12025.Models
 
         [Display(Name = "Localité"), Required(ErrorMessage = "*"), MaxLength(20)]
         public string Localité { get; set; }
+
+        public int IdGestionnaire { get; set; }
+        [ForeignKey("IdGestionnaire")]
+
+        public virtual Gestionnaire Gestionnaire { get; set; }
+        public virtual ICollection<Gestionnaire> Gestionnaires { get; set; }
     }
 }
