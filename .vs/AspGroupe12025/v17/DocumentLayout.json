@@ -7,6 +7,34 @@
       "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\controllers\\agencescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\appaspgroupe12025\\views\\agences\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\views\\agences\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|c:\\users\\eliteone\\desktop\\school\\c#\\master\\asp.net\\appaspgroupe12025\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|c:\\users\\eliteone\\desktop\\school\\c#\\master\\asp.net\\appaspgroupe12025\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|c:\\users\\eliteone\\desktop\\school\\c#\\master\\asp.net\\appaspgroupe12025\\content\\pagedlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\content\\pagedlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|c:\\users\\eliteone\\desktop\\school\\c#\\master\\asp.net\\appaspgroupe12025\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|c:\\users\\eliteone\\desktop\\school\\c#\\master\\asp.net\\appaspgroupe12025\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|c:\\users\\eliteone\\desktop\\school\\c#\\master\\asp.net\\appaspgroupe12025\\controllers\\gestionnairescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\controllers\\gestionnairescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\appaspgroupe12025\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\appaspgroupe12025\\models\\annonce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\models\\annonce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\appaspgroupe12025\\views\\agences\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\views\\agences\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\appaspgroupe12025\\models\\agence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,8 +73,116 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "AppAspGroupe12025\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAmwC8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T14:14:30.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AppAspGroupe12025\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAHgBAAAAAAAAAADgv4cBAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T13:16:20.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GestionnairesController.cs",
+              "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Controllers\\GestionnairesController.cs",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Controllers\\GestionnairesController.cs",
+              "ToolTip": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Controllers\\GestionnairesController.cs",
+              "RelativeToolTip": "AppAspGroupe12025\\Controllers\\GestionnairesController.cs",
+              "ViewState": "AQIAACoAAAAAKTMzMzMXwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T12:59:14.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AppAspGroupe12025\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwBwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T12:58:43.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AgencesController.cs",
+              "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Controllers\\AgencesController.cs",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Controllers\\AgencesController.cs",
+              "ToolTip": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Controllers\\AgencesController.cs",
+              "RelativeToolTip": "AppAspGroupe12025\\Controllers\\AgencesController.cs",
+              "ViewState": "AQIAABoAAAAAQGZmZmbWvysAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T01:48:51.168Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Views\\Agences\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Views\\Agences\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Views\\Agences\\Index.cshtml",
+              "RelativeToolTip": "AppAspGroupe12025\\Views\\Agences\\Index.cshtml",
+              "ViewState": "AQIAAE8AAAAAzszMzAwswF0AAAB/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T23:56:17.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PagedList.css",
+              "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Content\\PagedList.css",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Content\\PagedList.css",
+              "ToolTip": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Content\\PagedList.css",
+              "RelativeToolTip": "AppAspGroupe12025\\Content\\PagedList.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-28T14:14:06.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AppAspGroupe12025\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADgAAAAA8ZmZmZkMwDMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T12:10:31.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Utilisateur.cs",
               "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Models\\Utilisateur.cs",
               "RelativeDocumentMoniker": "AppAspGroupe12025\\Models\\Utilisateur.cs",
@@ -62,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Gestionnaire.cs",
               "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Models\\Gestionnaire.cs",
               "RelativeDocumentMoniker": "AppAspGroupe12025\\Models\\Gestionnaire.cs",
@@ -74,19 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Views\\Agences\\Index.cshtml",
-              "RelativeDocumentMoniker": "AppAspGroupe12025\\Views\\Agences\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Views\\Agences\\Index.cshtml",
-              "RelativeToolTip": "AppAspGroupe12025\\Views\\Agences\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAMzMzMzMLwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2025-01-27T23:56:17.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "AppAspGroupe12025\\Migrations\\Configuration.cs",
@@ -98,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "BDAgenceVoyageContext.cs",
               "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Models\\BDAgenceVoyageContext.cs",
               "RelativeDocumentMoniker": "AppAspGroupe12025\\Models\\BDAgenceVoyageContext.cs",
@@ -110,24 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AgencesController.cs",
-              "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Controllers\\AgencesController.cs",
-              "RelativeDocumentMoniker": "AppAspGroupe12025\\Controllers\\AgencesController.cs",
-              "ToolTip": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Controllers\\AgencesController.cs",
-              "RelativeToolTip": "AppAspGroupe12025\\Controllers\\AgencesController.cs",
-              "ViewState": "AQIAABMAAABAzszMzMwQwBQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T01:48:51.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Annonce.cs",
               "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Models\\Annonce.cs",
               "RelativeDocumentMoniker": "AppAspGroupe12025\\Models\\Annonce.cs",
@@ -139,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Web.config",
               "RelativeDocumentMoniker": "AppAspGroupe12025\\Web.config",
@@ -152,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Agence.cs",
               "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Models\\Agence.cs",
               "RelativeDocumentMoniker": "AppAspGroupe12025\\Models\\Agence.cs",
