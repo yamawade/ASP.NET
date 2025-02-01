@@ -7,18 +7,44 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using AppAspGroupe12025.Models;
+using PagedList;
 
 namespace AppAspGroupe12025.Controllers
 {
     public class AgencesController : Controller
     {
         private BDAgenceVoyageContext db = new BDAgenceVoyageContext();
-
+        const int pageSize = 1;
         // GET: Agences
-        public ActionResult Index()
+
+        
+        public ActionResult Index(string Adresse, string ninea, string rccm, int? page)
         {
-            var agences = db.Agences.Include(a => a.Gestionnaire);
-            return View(agences.ToList());
+            //var agences = db.Agences.Include(a => a.Gestionnaire);
+
+            ViewBag.Addresse = Adresse!=null? Adresse: string.Empty;
+            ViewBag.ninea = ninea!=null? ninea: string.Empty;
+            ViewBag.rccm = rccm!=null? rccm: string.Empty;
+
+            var liste = db.Agences.ToList();
+
+            if(!string.IsNullOrEmpty(Adresse))
+            {
+                liste=liste.Where(a=>a.AdresseAgence.ToLower().Contains(Adresse.ToLower())).ToList();
+            }
+            if(!string.IsNullOrEmpty(ninea))
+            {
+                liste=liste.Where(a=>a.NineaAgence.ToLower().Contains(ninea.ToLower())).ToList();
+            }
+            if(!string.IsNullOrEmpty(rccm))
+            {
+                liste=liste.Where(a=>a.RccmAgence.ToLower().Contains(rccm.ToLower())).ToList();
+            }
+
+            page = page.HasValue ? page : 1;
+            int pageNumber=(int)page;
+
+            return View(liste.ToPagedList(pageNumber,pageSize));
         }
 
         // GET: Agences/Details/5

@@ -45,6 +45,7 @@ namespace AppAspGroupe12025
                       "~/assets/vendor/quill/quill.bubble.css",
                       "~/assets/vendor/remixicon/remixicon.css",
                       "~/assets/vendor/simple-datatables/style.css",
+                      "~/Content/PagedList.css",
                       "~/assets/css/style.css"));
         }
     }
