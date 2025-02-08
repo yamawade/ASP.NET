@@ -211,6 +211,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AgencesController.cs" />
+    <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\GestionnairesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -225,6 +226,7 @@
     <Compile Include="Models\BDAgenceVoyageContext.cs" />
     <Compile Include="Models\Chauffeur.cs" />
     <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Flotte.cs" />
     <Compile Include="Models\Gestionnaire.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -672,6 +674,7 @@
     <Content Include="assets\vendor\tinymce\package.json" />
     <Content Include="assets\vendor\tinymce\README.md" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
+    <Content Include="Scripts\clientJs.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
     <Content Include="Scripts\jquery-3.7.0.slim.js" />
@@ -726,6 +729,7 @@
     <Content Include="Views\Gestionnaires\Details.cshtml" />
     <Content Include="Views\Gestionnaires\Edit.cshtml" />
     <Content Include="Views\Gestionnaires\Index.cshtml" />
+    <Content Include="Views\Client\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

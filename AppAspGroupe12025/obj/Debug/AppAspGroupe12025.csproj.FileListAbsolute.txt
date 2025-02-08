@@ -284,3 +284,7 @@ C:\Users\ELITEONE\Desktop\School\C#\Master\ASP.NET\AppAspGroupe12025\bin\PagedLi
 C:\Users\ELITEONE\Desktop\School\C#\Master\ASP.NET\AppAspGroupe12025\bin\PagedList.Mvc.dll
 C:\Users\ELITEONE\Desktop\School\C#\Master\ASP.NET\AppAspGroupe12025\bin\PagedList.xml
 C:\Users\ELITEONE\Desktop\School\C#\Master\ASP.NET\AppAspGroupe12025\bin\PagedList.Mvc.xml
+C:\Users\MARIAMA\source\repos\AspGroupe12025\AppAspGroupe12025\bin\PagedList.dll
+C:\Users\MARIAMA\source\repos\AspGroupe12025\AppAspGroupe12025\bin\PagedList.Mvc.dll
+C:\Users\MARIAMA\source\repos\AspGroupe12025\AppAspGroupe12025\bin\PagedList.xml
+C:\Users\MARIAMA\source\repos\AspGroupe12025\AppAspGroupe12025\bin\PagedList.Mvc.xml
