@@ -222,6 +222,11 @@
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Agence.cs" />
     <Compile Include="Models\Annonce.cs" />
+    <Compile Include="Models\App_LocalResources\ResourceFr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceFr.resx</DependentUpon>
+    </Compile>
     <Compile Include="Models\BDAgenceVoyageContext.cs" />
     <Compile Include="Models\Chauffeur.cs" />
     <Compile Include="Models\Client.cs" />
@@ -851,6 +856,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\App_LocalResources\ResourceFr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceFr.Designer.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

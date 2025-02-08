@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|c:\\users\\eliteone\\desktop\\school\\c#\\master\\asp.net\\appaspgroupe12025\\views\\agences\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\views\\agences\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|c:\\users\\eliteone\\desktop\\school\\c#\\master\\asp.net\\appaspgroupe12025\\models\\app_localresources\\resourcefr.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\models\\app_localresources\\resourcefr.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Views\\Agences\\Create.cshtml",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Views\\Agences\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Views\\Agences\\Create.cshtml",
+              "RelativeToolTip": "AppAspGroupe12025\\Views\\Agences\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T01:41:15.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResourceFr.resx",
+              "DocumentMoniker": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Models\\App_LocalResources\\ResourceFr.resx",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Models\\App_LocalResources\\ResourceFr.resx",
+              "ToolTip": "C:\\Users\\ELITEONE\\Desktop\\School\\C#\\Master\\ASP.NET\\AppAspGroupe12025\\Models\\App_LocalResources\\ResourceFr.resx",
+              "RelativeToolTip": "AppAspGroupe12025\\Models\\App_LocalResources\\ResourceFr.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-02-08T01:40:52.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
