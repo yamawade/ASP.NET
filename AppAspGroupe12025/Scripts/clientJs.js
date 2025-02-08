@@ -13,6 +13,7 @@ function loadData() {
             var html = '';
             $.each(result, function (key, item) {
                 html += '<tr>';
+                html += '<td>' + item.IdUtilisateur + '</td>';
                 html += '<td>' + item.CNIClient + '</td>';
                 html += '<td>' + item.NomUtilisateur + '</td>';
                 html += '<td>' + item.PrenomUtilisateur + '</td>';
@@ -60,6 +61,7 @@ function Add() {
 }
 //Function for getting the Data Based upon Employee ID 
 function getbyID(EmpID) {
+    $('#CNIClient').css('border-color', 'lightgrey');
     $('#NomUtilisateur').css('border-color', 'lightgrey');
     $('#PrenomUtilisateur').css('border-color', 'lightgrey');
     $('#TelUtilisateur').css('border-color', 'lightgrey');
@@ -148,6 +150,7 @@ function clearTextBox() {
     $('#EmailUtilisateur').val("");
     $('#btnUpdate').hide();
     $('#btnAdd').show();
+    $('#CNIClient').css('border-color', 'lightgrey');
     $('#NomUtilisateur').css('border-color', 'lightgrey');
     $('#PrenomUtilisateur').css('border-color', 'lightgrey');
     $('#TelUtilisateur').css('border-color', 'lightgrey');
