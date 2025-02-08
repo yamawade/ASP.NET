@@ -1,0 +1,66 @@
+﻿@model AppAspGroupe12025.Models.Annonce
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Annonce</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Gestionnaire.NomUtilisateur)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gestionnaire.NomUtilisateur)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Statut)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Statut)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateDepart)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateDepart)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateArrivé)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateArrivé)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Localité)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Localité)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdAnnonce }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

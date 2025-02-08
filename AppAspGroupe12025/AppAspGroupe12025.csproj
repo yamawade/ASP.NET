@@ -211,10 +211,14 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AgencesController.cs" />
+    <Compile Include="Controllers\AnnoncesController.cs" />
     <Compile Include="Controllers\ClientController.cs" />
+    <Compile Include="Controllers\FlottesController.cs" />
     <Compile Include="Controllers\GestionnairesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\OffresController.cs" />
+    <Compile Include="Controllers\ReservationsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -735,6 +739,26 @@
     <Content Include="Views\Gestionnaires\Edit.cshtml" />
     <Content Include="Views\Gestionnaires\Index.cshtml" />
     <Content Include="Views\Client\Index.cshtml" />
+    <Content Include="Views\Annonces\Create.cshtml" />
+    <Content Include="Views\Annonces\Delete.cshtml" />
+    <Content Include="Views\Annonces\Details.cshtml" />
+    <Content Include="Views\Annonces\Edit.cshtml" />
+    <Content Include="Views\Annonces\Index.cshtml" />
+    <Content Include="Views\Offres\Create.cshtml" />
+    <Content Include="Views\Offres\Delete.cshtml" />
+    <Content Include="Views\Offres\Details.cshtml" />
+    <Content Include="Views\Offres\Edit.cshtml" />
+    <Content Include="Views\Offres\Index.cshtml" />
+    <Content Include="Views\Reservations\Create.cshtml" />
+    <Content Include="Views\Reservations\Delete.cshtml" />
+    <Content Include="Views\Reservations\Details.cshtml" />
+    <Content Include="Views\Reservations\Edit.cshtml" />
+    <Content Include="Views\Reservations\Index.cshtml" />
+    <Content Include="Views\Flottes\Create.cshtml" />
+    <Content Include="Views\Flottes\Delete.cshtml" />
+    <Content Include="Views\Flottes\Details.cshtml" />
+    <Content Include="Views\Flottes\Edit.cshtml" />
+    <Content Include="Views\Flottes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
