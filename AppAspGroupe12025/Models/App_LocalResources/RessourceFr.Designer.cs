@@ -77,5 +77,23 @@ namespace AppAspGroupe12025.Models.App_LocalResources {
                 return ResourceManager.GetString("TextAgence", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Bienvenue dans la plateforme de bien immobilier.
+        /// </summary>
+        public static string TextBienvenue {
+            get {
+                return ResourceManager.GetString("TextBienvenue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Courier électroniaue.
+        /// </summary>
+        public static string TextEmail {
+            get {
+                return ResourceManager.GetString("TextEmail", resourceCulture);
+            }
+        }
     }
 }

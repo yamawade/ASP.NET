@@ -206,6 +206,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\Helpers.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
@@ -759,6 +760,7 @@
     <Content Include="Views\Flottes\Details.cshtml" />
     <Content Include="Views\Flottes\Edit.cshtml" />
     <Content Include="Views\Flottes\Index.cshtml" />
+    <Content Include="Views\Shared\_Flash.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

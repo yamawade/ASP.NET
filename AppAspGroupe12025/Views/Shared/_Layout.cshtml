@@ -54,7 +54,7 @@
             <i class="bi bi-list toggle-sidebar-btn"></i>
         </div><!-- End Logo -->
 
-       
+
 
         <nav class="header-nav ms-auto">
             <ul class="d-flex align-items-center">
@@ -65,7 +65,7 @@
                     </a>
                 </li><!-- End Search Icon-->
 
-               
+
 
                 <li class="nav-item dropdown pe-3">
 
@@ -92,7 +92,7 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                                            
+
                         <li>
                             <a class="dropdown-item d-flex align-items-center" href="@Url.Action("LogOff","Account")">
                                 <i class="bi bi-box-arrow-right"></i>
@@ -154,6 +154,11 @@
                             <i class="bi bi-circle"></i><span>Flottes</span>
                         </a>
                     </li>
+                    <li>
+                        <a href="@Url.Action("Index","client")">
+                            <i class="bi bi-circle"></i><span>Clients</span>
+                        </a>
+                    </li>
 
 
                 </ul>
@@ -178,6 +183,7 @@
 
         <section class="section">
             <div class="row">
+                @Html.Partial("_Flash")
                 @RenderBody()
             </div>
         </section>
@@ -212,6 +218,22 @@
     <!-- Template Main JS File -->
     @*<script src="~/assets/js/main.js"></script>*@
     @Scripts.Render("~/bundles/jstemplate")
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.flash-messages').delay(5000).fadeOut();
+        });
+
+        //function ShowSearch() {
+        //    var x = document.getElementById("divSearch");
+        //    if (x.style.display === "none") {
+        //        x.style.display = "block";
+        //    } else {
+        //        x.style.display = "none";
+        //    }
+        //}
+    </script>
+
 
     @RenderSection("scripts", required: false)
 

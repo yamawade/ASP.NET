@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AppAspGroupe12025.App_Start;
+using AppAspGroupe12025.Models.App_LocalResources;
 
 namespace AppAspGroupe12025.Controllers
 {
@@ -10,6 +12,7 @@ namespace AppAspGroupe12025.Controllers
     {
         public ActionResult Index()
         {
+            this.Flash("Welcome", FlashLevel.Success);
             return View();
         }
 

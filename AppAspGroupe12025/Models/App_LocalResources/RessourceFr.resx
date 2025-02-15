@@ -123,4 +123,10 @@
   <data name="TextAgence" xml:space="preserve">
     <value>Agence</value>
   </data>
+  <data name="TextBienvenue" xml:space="preserve">
+    <value>Bienvenue dans la plateforme de bien immobilier</value>
+  </data>
+  <data name="TextEmail" xml:space="preserve">
+    <value>Courier électroniaue</value>
+  </data>
 </root>

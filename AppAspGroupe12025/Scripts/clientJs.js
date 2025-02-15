@@ -19,8 +19,8 @@ function loadData() {
                 html += '<td>' + item.PrenomUtilisateur + '</td>';
                 html += '<td>' + item.TelUtilisateur + '</td>';
                 html += '<td>' + item.EmailUtilisateur + '</td>';
-                html += '<td><a href="#" onclick="return getbyID(' + item.CNIClient +
-                    ')">Edit</a> | <a href="#" onclick="Delele(' + item.CNIClient + ')">Delete</a></td>';
+                html += '<td><a href="#" onclick="return getbyID(' + item.IdUtilisateur +
+                    ')">Edit</a> | <a href="#" onclick="Delele(' + item.IdUtilisateur + ')">Delete</a></td>';
                 html += '</tr>';
             });
             $('.tbody').html(html);
