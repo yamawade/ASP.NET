@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|c:\\users\\mariama\\source\\repos\\aspgroupe12025\\appaspgroupe12025\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|c:\\users\\mariama\\source\\repos\\aspgroupe12025\\appaspgroupe12025\\views\\message\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\views\\message\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|c:\\users\\mariama\\source\\repos\\aspgroupe12025\\appaspgroupe12025\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|c:\\users\\mariama\\source\\repos\\aspgroupe12025\\appaspgroupe12025\\controllers\\agencescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379DD7B6-AE83-45FA-9773-84BAB789CE4C}|AppAspGroupe12025\\AppAspGroupe12025.csproj|solutionrelative:appaspgroupe12025\\controllers\\agencescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AppAspGroupe12025\\Views\\Message\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Views\\Message\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AppAspGroupe12025\\Views\\Message\\Index.cshtml",
+              "RelativeToolTip": "AppAspGroupe12025\\Views\\Message\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T00:56:59.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AppAspGroupe12025\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AppAspGroupe12025\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "AppAspGroupe12025\\Controllers\\MessageController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T00:11:07.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AppAspGroupe12025\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AppAspGroupe12025\\Models\\Message.cs*",
+              "RelativeToolTip": "AppAspGroupe12025\\Models\\Message.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswCEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T00:00:31.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgencesController.cs",
+              "DocumentMoniker": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AppAspGroupe12025\\Controllers\\AgencesController.cs",
+              "RelativeDocumentMoniker": "AppAspGroupe12025\\Controllers\\AgencesController.cs",
+              "ToolTip": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AppAspGroupe12025\\Controllers\\AgencesController.cs",
+              "RelativeToolTip": "AppAspGroupe12025\\Controllers\\AgencesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T23:56:17.96Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
