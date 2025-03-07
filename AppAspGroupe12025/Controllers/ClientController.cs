@@ -19,10 +19,12 @@ namespace AppAspGroupe12025.Controllers
         {
             return Json(db.clients.ToList(), JsonRequestBehavior.AllowGet);
         }
+        GMailer gmailer = new GMailer();
         public JsonResult Add(Client client)
         {
             db.clients.Add(client);
             db.SaveChanges();
+            gmailer.SendEmail(client.EmailUtilisateur, "Inscription avec success !",$"Bonjour {client.PrenomUtilisateur + " " + client.NomUtilisateur}, votre inscription a ete bien enregistrer");
             return Json(1, JsonRequestBehavior.AllowGet);
 
         }

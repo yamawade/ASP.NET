@@ -254,6 +254,7 @@
     <Compile Include="Models\Voyage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="utils\GMailer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\style.css" />

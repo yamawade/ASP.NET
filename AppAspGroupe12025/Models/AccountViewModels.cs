@@ -88,6 +88,23 @@ namespace AppAspGroupe12025.Models
         [Display(Name = "Courrier électronique")]
         public string Email { get; set; }
 
+        [Display(Name = "CNI"), Required(ErrorMessage = "*"), MaxLength(20)]
+        public string CNIClient { get; set; }
+
+        [Display(Name = "Nom"), Required(ErrorMessage = "*"), MaxLength(80)]
+        public string NomUtilisateur { get; set; }
+
+        [Display(Name = "Prénom"), Required(ErrorMessage = "*"), MaxLength(80)]
+        public string PrenomUtilisateur { get; set; }
+
+        [DataType(DataType.EmailAddress)]
+        [Display(Name = "Email"), Required(ErrorMessage = "*"), MaxLength(80)]
+        public string EmailUtilisateur { get; set; }
+
+
+        [Display(Name = "Téléphone"), Required(ErrorMessage = "*"), MaxLength(20), RegularExpression(@"^(77|76|75|78|70|33)[0-9]{7}$")]
+        public string TelUtilisateur { get; set; }
+
         [Required]
         [StringLength(100, ErrorMessage = "{0} doit contenir au moins {2} caractères.", MinimumLength = 6)]
         [DataType(DataType.Password)]
