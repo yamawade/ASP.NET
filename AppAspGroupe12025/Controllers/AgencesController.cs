@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using AppAspGroupe12025.Models;
+using Microsoft.SqlServer.Server;
 using PagedList;
 
 namespace AppAspGroupe12025.Controllers
@@ -146,6 +148,40 @@ namespace AppAspGroupe12025.Controllers
             return RedirectToAction("Index");
         }
 
+        public DataTable GetTableAgence()
+        {
+            DataTable table = new DataTable();
+            table.Columns.Add("NineaAgence", typeof(string));
+            table.Columns.Add("AdresseAgence", typeof(string));
+            table.Columns.Add("Longitude", typeof(float));
+            table.Columns.Add("Latitude", typeof(float));
+            table.Columns.Add("RccmAgence", typeof(string));
+            var liste = db.Agences.ToList();
+            foreach (var i in liste)
+            {
+                table.Rows.Add(i.NineaAgence, i.AdresseAgence, i.Longitude, i.Latitude, i.RccmAgence);
+            }
+            
+            return table;
+        }
+
+        public ActionResult ReportListeAgence()
+        {
+            CrystalDecisions.CrystalReports.Engine.ReportDocument rpt = new CrystalDecisions.CrystalReports.Engine.ReportDocument();
+            try
+            {
+                rpt.Load(Server.MapPath("~/Report/rptListeAgence.rpt"));
+                rpt.SetDataSource(GetTableAgence());
+                Stream stream = rpt.ExportToStream(CrystalDecisions.Shared.ExportFormatType.PortableDocFormat);
+                Response.AppendHeader("Content-Disposition", "inline");
+                return File(stream, "application/pdf");
+            }
+            finally
+            {
+                rpt.Dispose();
+                rpt.Close();
+            }
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)
