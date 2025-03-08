@@ -15,6 +15,7 @@ namespace AppAspGroupe12025.Controllers
     [Authorize]
     public class AccountController : Controller
     {
+        GMailer Gmailer = new GMailer();
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
@@ -155,13 +156,14 @@ namespace AppAspGroupe12025.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
-                    
+                   // await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
+                
                     // Pour plus d'informations sur l'activation de la confirmation de compte et de la réinitialisation de mot de passe, visitez https://go.microsoft.com/fwlink/?LinkID=320771
                     // Envoyer un e-mail avec ce lien
-                    // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
-                    // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
+                     string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
+                     var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await UserManager.SendEmailAsync(user.Id, "Confirmer votre compte", "Confirmez votre compte en cliquant <a href=\"" + callbackUrl + "\">ici</a>");
+                    Gmailer.senMail(model.Email, "Confirmer votre compte", "Confirmez votre compte en cliquant <a href=\\\"\" + callbackUrl + \"\\\">ici</a>");
 
                     return RedirectToAction("Index", "Home");
                 }
@@ -202,7 +204,7 @@ namespace AppAspGroupe12025.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await UserManager.FindByNameAsync(model.Email);
+                var user = await UserManager.FindByEmailAsync(model.Email);
                 if (user == null || !(await UserManager.IsEmailConfirmedAsync(user.Id)))
                 {
                     // Ne révélez pas que l'utilisateur n'existe pas ou qu'il n'est pas confirmé
@@ -211,10 +213,11 @@ namespace AppAspGroupe12025.Controllers
 
                 // Pour plus d'informations sur l'activation de la confirmation de compte et de la réinitialisation de mot de passe, visitez https://go.microsoft.com/fwlink/?LinkID=320771
                 // Envoyer un e-mail avec ce lien
-                // string code = await UserManager.GeneratePasswordResetTokenAsync(user.Id);
-                // var callbackUrl = Url.Action("ResetPassword", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);		
-                // await UserManager.SendEmailAsync(user.Id, "Réinitialiser le mot de passe", "Réinitialisez votre mot de passe en cliquant <a href=\"" + callbackUrl + "\">ici</a>");
-                // return RedirectToAction("ForgotPasswordConfirmation", "Account");
+                 string code = await UserManager.GeneratePasswordResetTokenAsync(user.Id);
+                 var callbackUrl = Url.Action("ResetPassword", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
+                //await UserManager.SendEmailAsync(user.Id, "Réinitialiser le mot de passe", "Réinitialisez votre mot de passe en cliquant <a href=\"" + callbackUrl + "\">ici</a>");
+                Gmailer.senMail(model.Email, "Réinitialiser le mot de passe", "Réinitialisez votre mot de passe en cliquant <a href=\\\"\" + callbackUrl + \"\\\">ici</a>");
+                return RedirectToAction("ForgotPasswordConfirmation", "Account");
             }
 
             // Si nous sommes arrivés là, quelque chose a échoué, réafficher le formulaire
@@ -248,7 +251,7 @@ namespace AppAspGroupe12025.Controllers
             {
                 return View(model);
             }
-            var user = await UserManager.FindByNameAsync(model.Email);
+            var user = await UserManager.FindByEmailAsync(model.Email);
             if (user == null)
             {
                 // Ne révélez pas que l'utilisateur n'existe pas
