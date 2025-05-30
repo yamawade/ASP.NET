@@ -1,0 +1,6 @@
+@AspCoreGroupe12025_HostAddress = http://localhost:5231
+
+GET {{AspCoreGroupe12025_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

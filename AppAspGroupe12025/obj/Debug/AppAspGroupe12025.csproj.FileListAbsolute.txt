@@ -305,3 +305,6 @@ C:\Users\MARIAMA\source\repos\AspGroupe12025\AppAspGroupe12025\bin\CrystalDecisi
 C:\Users\MARIAMA\source\repos\AspGroupe12025\AppAspGroupe12025\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
 C:\Users\MARIAMA\source\repos\AspGroupe12025\AppAspGroupe12025\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 C:\Users\MARIAMA\source\repos\AspGroupe12025\AppAspGroupe12025\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\MARIAMA\source\repos\AspGroupe12025\AppAspGroupe12025\bin\stdole.dll
+C:\Users\MARIAMA\source\repos\AspGroupe12025\AppAspGroupe12025\obj\Debug\AppAspGroupe12025.Migrations.permier.resources
+C:\Users\MARIAMA\source\repos\AspGroupe12025\AppAspGroupe12025\obj\Debug\AppAspGroupe12025.csproj.GenerateResource.cache

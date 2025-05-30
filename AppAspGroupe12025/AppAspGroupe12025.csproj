@@ -230,6 +230,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202505101729216_permier.cs" />
+    <Compile Include="Migrations\202505101729216_permier.Designer.cs">
+      <DependentUpon>202505101729216_permier.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Admin.cs" />
@@ -912,6 +916,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Migrations\202505101729216_permier.resx">
+      <DependentUpon>202505101729216_permier.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Report\rptListeAgence.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rptListeAgence.cs</LastGenOutput>
