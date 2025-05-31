@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\ASP.NET\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj": {}
+    "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\ASP.NET\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj": {
+    "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\ASP.NET\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj",
+        "projectUniqueName": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj",
         "projectName": "AspCoreGroupe12025",
-        "projectPath": "C:\\Users\\USER\\ASP.NET\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\ASP.NET\\AspCoreGroupe12025\\obj\\",
+        "projectPath": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj",
+        "packagesPath": "C:\\Users\\MARIAMA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AspCoreGroupe12025\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MARIAMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -58,7 +68,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[8.1.2, )"
             }
           },
           "imports": [
@@ -80,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
