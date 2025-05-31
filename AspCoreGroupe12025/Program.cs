@@ -3,21 +3,21 @@ using AspCoreGroupe12025.Helpers;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 var services = builder.Services;
 var env = builder.Environment;
 
-builder.Services.AddDbContext<DataContext>();
+services.AddDbContext<DataContext>();
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+services.AddControllers();
+
+// Swagger : génération automatique de la doc API
+services.AddEndpointsApiExplorer();
+services.AddSwaggerGen();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (env.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();

@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "ZbEbvQdZah7t8/FZ8uOLGfmS2r354UbVgWKblbYiFtU=",
+  "Hash": "PtymlGaFrMFG4rn2We7lqmnIwn1qmJ2cVOQnkWvYr4I=",
   "Source": "AspCoreGroupe12025",
   "BasePath": "_content/AspCoreGroupe12025",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }
