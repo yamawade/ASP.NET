@@ -1,1 +1,11 @@
 ".vs/" 
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.pdb
+*.dll
+*.dbmdl
