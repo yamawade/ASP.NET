@@ -1,0 +1,56 @@
+﻿@*@{
+        ViewBag.Title = "Index";
+    }
+
+    <!DOCTYPE html>
+
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Index</title>
+    </head>
+    <body>
+        <div>
+        </div>
+    </body>
+    </html>*@
+
+@{
+    ViewBag.Title = "Envoyer un message WhatsApp";
+}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/styles.css" />
+</head>
+<body>
+    <h2>Envoyer un message WhatsApp</h2>
+
+    @using (Html.BeginForm("EnvoyerMessage", "Message", FormMethod.Post))
+    {
+        <div>
+            <label for="numero">Numéro :</label>
+            <input type="text" name="numero" id="numero" placeholder="Entrez le numéro WhatsApp" required />
+        </div>
+
+        <div>
+            <label for="message">Message :</label>
+            <textarea name="message" id="message" placeholder="Entrez le message" required></textarea>
+        </div>
+
+        <button type="submit">Envoyer le message</button>
+    }
+
+    <hr />
+    <div>
+        @if (ViewBag.Result != null)
+        {
+            <p>@ViewBag.Result</p>
+        }
+    </div>
+</body>
+</html>

@@ -22,5 +22,11 @@ namespace AppAspGroupe12025.Models
         public System.Data.Entity.DbSet<AppAspGroupe12025.Models.Agence> Agences { get; set; }
 
         public System.Data.Entity.DbSet<AppAspGroupe12025.Models.Annonce> Annonces { get; set; }
+
+        public System.Data.Entity.DbSet<AppAspGroupe12025.Models.Offre> Offres { get; set; }
+
+        public System.Data.Entity.DbSet<AppAspGroupe12025.Models.Reservation> Reservations { get; set; }
+
+        public System.Data.Entity.DbSet<AppAspGroupe12025.Models.Flotte> Flottes { get; set; }
     }
 }

@@ -8,7 +8,8 @@ namespace AppAspGroupe12025.Models
 {
     public class Client:Utilisateur
     {
-        [Display(Name = "CNI"), Required(ErrorMessage = "*"), MaxLength(20),RegularExpression("/^(1\\d|2\\d)\\d{11}$/")]
+        //RegularExpression("/^(1\\d|2\\d)\\d{11}$/")
+        [Display(Name = "CNI"), Required(ErrorMessage = "*"), MaxLength(20)]
         public string CNIClient { get; set; }
     }
 }
