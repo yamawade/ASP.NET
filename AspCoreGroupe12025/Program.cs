@@ -28,6 +28,11 @@ services.AddScoped<IUserService, UserService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<IAgenceService, AgenceService>();
+builder.Services.AddScoped<IClientService, ClientService>();
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
