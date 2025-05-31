@@ -1,7 +1,6 @@
-".vs/" 
+.vs/
 bin/
 obj/
-.vs/
 *.user
 *.suo
 *.cache
@@ -9,3 +8,4 @@ obj/
 *.pdb
 *.dll
 *.dbmdl
+/AspCoreGroupe12025/obj/
