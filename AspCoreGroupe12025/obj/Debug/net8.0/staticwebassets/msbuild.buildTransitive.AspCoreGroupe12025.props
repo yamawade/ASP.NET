@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\AspCoreGroupe12025.props" />
-</Project>
