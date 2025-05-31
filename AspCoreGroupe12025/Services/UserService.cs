@@ -48,7 +48,7 @@ namespace AspCoreGroupe12025.Services
             var user = _mapper.Map<User>(model);
 
             // hash password 
-            user.PasswordHash = BCrypt.HashPassword(model.Password);
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(model.Password);
 
             // save user 
             _context.Users.Add(user);
@@ -66,7 +66,7 @@ namespace AspCoreGroupe12025.Services
     
         // hash password if it was entered 
         if (!string.IsNullOrEmpty(model.Password))
-                user.PasswordHash = BCrypt.HashPassword(model.Password);
+                user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(model.Password);
 
             // copy model to user and save 
             _mapper.Map(model, user);

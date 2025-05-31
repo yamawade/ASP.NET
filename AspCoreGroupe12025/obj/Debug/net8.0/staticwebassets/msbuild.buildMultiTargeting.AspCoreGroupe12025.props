@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\AspCoreGroupe12025.props" />
-</Project>
