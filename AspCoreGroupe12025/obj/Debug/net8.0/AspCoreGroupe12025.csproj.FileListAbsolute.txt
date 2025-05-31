@@ -107,3 +107,4 @@ C:\Users\ELITEONE\Desktop\School\C#\Master\AspGroup\ASP.NET\AspCoreGroupe12025\o
 C:\Users\ELITEONE\Desktop\School\C#\Master\AspGroup\ASP.NET\AspCoreGroupe12025\obj\Debug\net8.0\AspCoreGroupe12025.genruntimeconfig.cache
 C:\Users\ELITEONE\Desktop\School\C#\Master\AspGroup\ASP.NET\AspCoreGroupe12025\obj\Debug\net8.0\ref\AspCoreGroupe12025.dll
 >>>>>>> 71cb11fe8e9e156a2441f57c7c129a1e093c5259
+C:\Users\MARIAMA\source\repos\AspGroupe12025\AspCoreGroupe12025\bin\Debug\net8.0\BCrypt.Net-Core.dll
