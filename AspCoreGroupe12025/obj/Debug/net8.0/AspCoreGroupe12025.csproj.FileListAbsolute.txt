@@ -51,3 +51,5 @@ C:\Users\MARIAMA\source\repos\AspGroupe12025\AspCoreGroupe12025\obj\Debug\net8.0
 C:\Users\MARIAMA\source\repos\AspGroupe12025\AspCoreGroupe12025\obj\Debug\net8.0\AspCoreGroupe12025.pdb
 C:\Users\MARIAMA\source\repos\AspGroupe12025\AspCoreGroupe12025\obj\Debug\net8.0\AspCoreGroupe12025.genruntimeconfig.cache
 C:\Users\MARIAMA\source\repos\AspGroupe12025\AspCoreGroupe12025\obj\Debug\net8.0\ref\AspCoreGroupe12025.dll
+C:\Users\MARIAMA\source\repos\AspGroupe12025\AspCoreGroupe12025\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\MARIAMA\source\repos\AspGroupe12025\AspCoreGroupe12025\bin\Debug\net8.0\BCrypt.Net-Next.dll

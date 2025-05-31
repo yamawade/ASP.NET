@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4XFo0jV+HTg=",
+  "dgSpecHash": "jOoaY9E1pxw=",
   "success": true,
   "projectFilePath": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\MARIAMA\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
+    "C:\\Users\\MARIAMA\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\MARIAMA\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.4\\microsoft.entityframeworkcore.9.0.4.nupkg.sha512",
     "C:\\Users\\MARIAMA\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.4\\microsoft.entityframeworkcore.abstractions.9.0.4.nupkg.sha512",
     "C:\\Users\\MARIAMA\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.4\\microsoft.entityframeworkcore.analyzers.9.0.4.nupkg.sha512",
