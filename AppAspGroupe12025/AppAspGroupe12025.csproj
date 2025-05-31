@@ -373,10 +373,17 @@
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Agence.cs" />
     <Compile Include="Models\Annonce.cs" />
+<<<<<<< HEAD
+    <Compile Include="Models\App_LocalResources\ResourceFr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceFr.resx</DependentUpon>
+=======
     <Compile Include="Models\App_LocalResources\RessourceFr.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>RessourceFr.resx</DependentUpon>
+>>>>>>> 951db72a5f5fc6c7f622b8f17eb1ef0e8758f8af
     </Compile>
     <Compile Include="Models\BDAgenceVoyageContext.cs" />
     <Compile Include="Models\Chauffeur.cs" />
@@ -919,6 +926,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Report\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
@@ -1057,6 +1065,12 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rptListeAgence.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\App_LocalResources\ResourceFr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceFr.Designer.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
