@@ -9,11 +9,8 @@ namespace AspCoreGroupe12025.Helpers
     {
         public AutoMapperProfile()
         {
-            CreateMap<CreateAgenceRequest, Agence>();
-            CreateMap<UpdateAgenceRequest, Agence>();
-
-            CreateMap<CreateClientRequest, Agence>();
-            CreateMap<UpdateClientRequest, Agence>();
+            CreateMap<CreateClientRequest, Client>();
+            CreateMap<UpdateClientRequest, Client>();
             // CreateRequest -> User 
             CreateMap<CreateRequest, User>();
 
