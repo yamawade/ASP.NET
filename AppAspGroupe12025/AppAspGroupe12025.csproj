@@ -373,17 +373,10 @@
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Agence.cs" />
     <Compile Include="Models\Annonce.cs" />
-<<<<<<< HEAD
-    <Compile Include="Models\App_LocalResources\ResourceFr.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ResourceFr.resx</DependentUpon>
-=======
     <Compile Include="Models\App_LocalResources\RessourceFr.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RessourceFr.resx</DependentUpon>
->>>>>>> 951db72a5f5fc6c7f622b8f17eb1ef0e8758f8af
+    <AutoGen>True</AutoGen>
+    <DesignTime>True</DesignTime>
+    <DependentUpon>RessourceFr.resx</DependentUpon>
     </Compile>
     <Compile Include="Models\BDAgenceVoyageContext.cs" />
     <Compile Include="Models\Chauffeur.cs" />
