@@ -1,3 +1,4 @@
+
 .vs/
 bin/
 obj/
@@ -9,3 +10,6 @@ obj/
 *.dll
 *.dbmdl
 /AspCoreGroupe12025/obj/
+packages/
+
+
