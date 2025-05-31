@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspCoreGroupe12025")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b9a6167fb718ea613291e95729a9144c7dc93e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0aea43878a4b56cda6370f742e543a1376cfac52")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspCoreGroupe12025")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspCoreGroupe12025")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
