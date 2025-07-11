@@ -10,7 +10,7 @@ namespace AspCoreGroupe12025.Services
     {
         IEnumerable<Flotte> GetAll();
         Flotte GetById(int id);
-        void Create(CreateRequestFlotte model);
+        Flotte Create(CreateRequestFlotte model);
         void Update(int id, UpdateRequestFlotte model);
         void Delete(int id);
     }
@@ -36,12 +36,14 @@ namespace AspCoreGroupe12025.Services
             return getFlotte(id);
         }
 
-        public void Create(CreateRequestFlotte model)
+        public Flotte Create(CreateRequestFlotte model)
         {
-            var flotte = _mapper.Map<Flotte>(model);
-            _context.Flottes.Add(flotte);
+            var entity = _mapper.Map<Flotte>(model);
+            _context.Flottes.Add(entity);
             _context.SaveChanges();
+            return entity;
         }
+
 
         public void Update(int id, UpdateRequestFlotte model)
         {

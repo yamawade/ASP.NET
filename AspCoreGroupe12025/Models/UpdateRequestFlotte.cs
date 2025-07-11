@@ -5,9 +5,9 @@ namespace AspCoreGroupe12025.Models
     public class UpdateRequestFlotte
     {
         [Required(ErrorMessage = "*"), MaxLength(80)]
-        public string TypeFlotte { get; set; }
+        public string? TypeFlotte { get; set; }
         [Required(ErrorMessage = "*"), MaxLength(80)]
-        public string MatriculeFlotte { get; set; }
+        public string? MatriculeFlotte { get; set; }
 
         private string replaceEmptyWithNull(string value)
         {
