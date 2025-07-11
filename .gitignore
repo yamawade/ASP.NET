@@ -10,4 +10,8 @@ obj/
 *.pdb
 *.dll
 *.dbmdl
+<<<<<<< HEAD
 
+=======
+UpgradeLog*.htm
+>>>>>>> f12bcb8c82852610bbcf94841774ded5661015bd

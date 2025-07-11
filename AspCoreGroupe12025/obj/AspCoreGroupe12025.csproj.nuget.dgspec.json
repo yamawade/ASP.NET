@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj": {}
+    "C:\\Users\\MARIAMA\\Desktop\\Projet_ASP\\ASP.NET\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj": {
+    "C:\\Users\\MARIAMA\\Desktop\\Projet_ASP\\ASP.NET\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj",
+        "projectUniqueName": "C:\\Users\\MARIAMA\\Desktop\\Projet_ASP\\ASP.NET\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj",
         "projectName": "AspCoreGroupe12025",
-        "projectPath": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj",
+        "projectPath": "C:\\Users\\MARIAMA\\Desktop\\Projet_ASP\\ASP.NET\\AspCoreGroupe12025\\AspCoreGroupe12025.csproj",
         "packagesPath": "C:\\Users\\MARIAMA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MARIAMA\\source\\repos\\AspGroupe12025\\AspCoreGroupe12025\\obj\\",
+        "outputPath": "C:\\Users\\MARIAMA\\Desktop\\Projet_ASP\\ASP.NET\\AspCoreGroupe12025\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,6 +57,10 @@
             "BCrypt.Net-Core": {
               "target": "Package",
               "version": "[1.6.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
