@@ -90,6 +90,8 @@ var env = builder.Environment;
 
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddScoped<IFlotteService, FlotteService>();
+builder.Services.AddSingleton<RabbitMQProducer>();
+//builder.Services.AddHostedService<RabbitMQConsumer>();
 
 
 builder.Services.AddControllers().AddJsonOptions(x =>
