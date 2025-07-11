@@ -31,13 +31,13 @@ namespace AppAspGroupe12025
                 user.UserName = "momo";
                 user.Email = "msarr091@gmail.com";
                 string userPwd = "P@sser";
-                var chkUser= UserManager.Create(user,userPwd);
+                var chkUser = UserManager.Create(user, userPwd);
                 if (chkUser.Succeeded)
                 {
                     var result1 = UserManager.AddToRole(user.Id, "Admin");
                 }
 
-                if(!roleManager.RoleExists("Manager"))
+                if (!roleManager.RoleExists("Manager"))
                 {
                     var roles = new Microsoft.AspNet.Identity.EntityFramework.IdentityRole();
                     roles.Name = "Manager";
@@ -45,7 +45,7 @@ namespace AppAspGroupe12025
 
                 }
 
-                if(!roleManager.RoleExists("Employee"))
+                if (!roleManager.RoleExists("Employee"))
                 {
                     var rol = new Microsoft.AspNet.Identity.EntityFramework.IdentityRole();
                     rol.Name = "Employee";
@@ -54,5 +54,6 @@ namespace AppAspGroupe12025
 
 
             }
+        }
     }
 }
