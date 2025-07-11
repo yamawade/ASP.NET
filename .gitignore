@@ -1,7 +1,7 @@
-".vs/" 
+
+.vs/
 bin/
 obj/
-.vs/
 *.user
 *.suo
 *.cache
@@ -9,4 +9,11 @@ obj/
 *.pdb
 *.dll
 *.dbmdl
+<<<<<<< HEAD
 UpgradeLog*.htm
+=======
+/AspCoreGroupe12025/obj/
+packages/
+
+
+>>>>>>> 52c880f9b6bd33fb618389c4f4eb14358496521c

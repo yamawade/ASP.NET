@@ -2,26 +2,55 @@
 using AspCoreGroupe12025.Helpers;
 using AspCoreGroupe12025.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using System.Text.Json.Serialization;
+using JWTRefreshToken.NET6._0.Auth;
 
 var builder = WebApplication.CreateBuilder(args);
+ConfigurationManager configuration = builder.Configuration;
 
-var services = builder.Services;
-var env = builder.Environment;
+// Ajout de la politique CORS
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
-builder.Services.AddDbContext<DataContext>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:4200")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
 
+// DbContext principal pour les entités métiers
+builder.Services.AddDbContext<DataContext>(options =>
+    options.UseNpgsql(configuration.GetConnectionString("TestDb")));
+
+// DbContext pour l'authentification avec Identity
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(configuration.GetConnectionString("TestDb")));
+
+// For Identity 
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
+
+// Services métiers et helpers
+builder.Services.AddScoped<IFlotteService, FlotteService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+// Gestion JSON des enums et valeurs nulles
 builder.Services.AddControllers().AddJsonOptions(x =>
 {
     x.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
     x.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
 });
-
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddEndpointsApiExplorer();
 
@@ -33,21 +62,9 @@ builder.Services.AddAuthentication(options =>
 })
 .AddJwtBearer(options =>
 {
-    options.Authority = "http://localhost:8081/realms/aspnet-api-realm"; // URL Keycloak Realm
-    options.Audience = "dotnet-api"; // Client ID configuré dans Keycloak
+    options.Authority = "http://localhost:8081/realms/aspnet-api-realm";
+    options.Audience = "dotnet-api";
     options.RequireHttpsMetadata = false;
-    // Pour les clients avec authentification
-    //options.TokenValidationParameters = new TokenValidationParameters
-    //{
-    //    ValidateIssuerSigningKey = true,
-    //    IssuerSigningKey = new SymmetricSecurityKey(
-    //        Encoding.UTF8.GetBytes("bJdjQ0uDcqYLsLv4QCd4Cz1q6vgxGUxG")), // ← Mettez le secret ici
-    //    ValidateIssuer = true,
-    //    ValidIssuer = "http://localhost:8081/realms/aspnet-api-realm",
-    //    ValidateAudience = true,
-    //    ValidAudience = "dotnet-api",
-    //    ValidateLifetime = true
-    //};
 });
 
 // Swagger avec OAuth2 Keycloak
@@ -91,23 +108,27 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// HTTPS redirection (optionnel mais conseillé)
-app.UseHttpsRedirection();
+// HTTPS redirection
+//app.UseHttpsRedirection();
 
-// Authentification et autorisation
-app.UseAuthentication();
-app.UseAuthorization();
+// CORS avant Auth
+app.UseCors(MyAllowSpecificOrigins);
 
-// Swagger toujours actif
+// Swagger en dev et prod (vu que tu l’as mis deux fois, autant le garder actif en prod si besoin)
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Mon API sécurisée V1");
     c.OAuthClientId("dotnet-api");
-    c.OAuthUsePkce();
+    c.OAuthClientSecret("evFhc1yP8AWUb4HjvAv0BffO9gicvbKe");
+    //c.OAuthUsePkce();
 });
 
+// Authentification & Autorisation
+app.UseAuthentication();
+app.UseAuthorization();
+
+// Controllers
 app.MapControllers();
 
 app.Run();
-

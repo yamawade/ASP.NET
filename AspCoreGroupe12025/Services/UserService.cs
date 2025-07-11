@@ -40,17 +40,22 @@ namespace AspCoreGroupe12025.Services
 
         public void Create(CreateRequest model)
         {
-            // validate 
+            // Vérifie si l'email existe déjà
             if (_context.Users.Any(x => x.Email == model.Email))
-                throw new AppException("User with the email '" + model.Email + "'  already exists"); 
-    
-        // map model to new user object 
+                throw new AppException("User with the email '" + model.Email + "' already exists");
+
+            // Mappe le modèle vers User
             var user = _mapper.Map<User>(model);
 
-            // hash password 
+            // Convertit le Role string en enum Role
+            if (!Enum.TryParse<Role>(model.Role, true, out var parsedRole))
+                throw new AppException("Le rôle spécifié est invalide.");
+            user.Role = parsedRole;
+
+            // Hash le mot de passe avec BCrypt
             user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(model.Password);
 
-            // save user 
+            // Sauvegarde en base
             _context.Users.Add(user);
             _context.SaveChanges();
         }

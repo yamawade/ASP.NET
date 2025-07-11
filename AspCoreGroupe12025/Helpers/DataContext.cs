@@ -1,5 +1,4 @@
 ﻿using Npgsql.EntityFrameworkCore.PostgreSQL;
-
 using Microsoft.EntityFrameworkCore;
 using AspCoreGroupe12025.Entities;
 using Microsoft.EntityFrameworkCore.Infrastructure;
@@ -22,5 +21,7 @@ namespace AspCoreGroupe12025.Helpers
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Flotte> Flottes { get; set; }
+
     }
 }

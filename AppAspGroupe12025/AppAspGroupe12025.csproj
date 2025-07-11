@@ -238,13 +238,12 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Agence.cs" />
-    <Compile Include="Models\Annonce.cs" />
-    <Compile Include="Models\App_LocalResources\ResourceFr.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ResourceFr.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Models\App_LocalResources\RessourceFr.Designer.cs">
+	  <Compile Include="Models\Annonce.cs" />
+	  <Compile Include="Models\App_LocalResources\ResourceFr.Designer.cs">
+		  <AutoGen>True</AutoGen>
+		  <DesignTime>True</DesignTime>
+		  <DependentUpon>ResourceFr.resx</DependentUpon>
+	  <Compile Include="Models\App_LocalResources\RessourceFr.Designer.cs" />
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>RessourceFr.resx</DependentUpon>
