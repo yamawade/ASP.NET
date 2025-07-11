@@ -12,6 +12,7 @@ obj/
 *.dll
 *.dbmdl
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 UpgradeLog*.htm
@@ -20,8 +21,13 @@ UpgradeLog*.htm
 *.pdb
 *.dll
 *.dbmdl
+=======
+>>>>>>> 52c880f9b6bd33fb618389c4f4eb14358496521c
 /AspCoreGroupe12025/obj/
 packages/
 
 
+<<<<<<< HEAD
 >>>>>>> d7c88ea17ea9d5d483dccb47e26904b0ec5923db
+=======
+>>>>>>> 52c880f9b6bd33fb618389c4f4eb14358496521c

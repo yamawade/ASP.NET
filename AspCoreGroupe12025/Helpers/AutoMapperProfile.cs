@@ -9,6 +9,9 @@ namespace AspCoreGroupe12025.Helpers
     {
         public AutoMapperProfile()
         {
+            // Flotte
+            CreateMap<CreateRequestFlotte, Flotte>();
+            CreateMap<UpdateRequestFlotte, Flotte>();
             // CreateRequest -> User 
             CreateMap<CreateRequest, User>();
 
