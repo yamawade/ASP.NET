@@ -6,6 +6,7 @@ obj/
 *.suo
 *.cache
 *.log
+<<<<<<< HEAD
 *.tmp
 *.pdb
 *.dll
@@ -15,3 +16,12 @@ obj/
 =======
 UpgradeLog*.htm
 >>>>>>> f12bcb8c82852610bbcf94841774ded5661015bd
+=======
+*.pdb
+*.dll
+*.dbmdl
+/AspCoreGroupe12025/obj/
+packages/
+
+
+>>>>>>> d7c88ea17ea9d5d483dccb47e26904b0ec5923db
