@@ -1,3 +1,4 @@
+
 namespace AspCoreGroupe12025
 {
     public class WeatherForecast
