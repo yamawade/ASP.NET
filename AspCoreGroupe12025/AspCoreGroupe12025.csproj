@@ -14,6 +14,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.4" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.122" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.2" />
   </ItemGroup>
 

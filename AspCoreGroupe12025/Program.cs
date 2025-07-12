@@ -92,6 +92,8 @@ builder.Services.AddDbContext<DataContext>();
 builder.Services.AddScoped<IFlotteService, FlotteService>();
 builder.Services.AddSingleton<RabbitMQProducer>();
 //builder.Services.AddHostedService<RabbitMQConsumer>();
+builder.Services.AddSingleton<RedisCacheService>();
+
 
 
 builder.Services.AddControllers().AddJsonOptions(x =>
